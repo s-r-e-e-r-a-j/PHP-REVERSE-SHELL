@@ -4,7 +4,7 @@ It quietly connects back to your machine reliably without showing any output.
 
 ## ⚠️ Disclaimer
 This PHP reverse shell is developed strictly for educational and authorized penetration testing purposes only.   
-The developer is not responsible for any misuse, damage, or illegal activity performed using this tool.     
+The developer is not responsible for any misuse, damage, or illegal activity performed using this reverse_shell.     
 Use responsibly and only on systems you own or have explicit permission to test. Unauthorized access is illegal and punishable by law.
 ## Features
 - IP and shell command are Base64 encoded for stealth and easy customization
