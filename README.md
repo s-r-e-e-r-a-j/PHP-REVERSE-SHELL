@@ -39,7 +39,7 @@ echo "your_ip_or_hostname" | base64
 ```bash
 echo "192.168.1.5" | base64
 ```
-Copy the output and replace the $ip_b64 value in the PHP script.
+Copy the output and replace the $ip_b64 value in the PHP reverse shell script.
 
 **3. Update your PHP reverse shell script:**
 
