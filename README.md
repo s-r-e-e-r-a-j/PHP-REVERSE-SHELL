@@ -36,7 +36,7 @@ echo "192.168.1.5" | base64
 ```
 **Copy the output and replace the $ip_b64 value in the PHP script.**
 
-**3. Update the PHP script**
+**3. Update the PHP script**  
 Change these lines with your Base64 encoded IP/hostname and port:
 
 ```php
@@ -57,6 +57,7 @@ Rename the file to something less suspicious, for example:**
  Upload this file to the target website where file uploads are allowed.
 
 **5. Trigger the reverse shell**
+
 Open the uploaded file in a browser:
 
 ```arduino
