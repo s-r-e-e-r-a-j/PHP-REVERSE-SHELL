@@ -7,7 +7,7 @@ This PHP reverse shell is developed strictly for educational and authorized pene
 The developer is not responsible for any misuse, damage, or illegal activity performed using this reverse_shell.     
 Use responsibly and only on systems you own or have explicit permission to test. Unauthorized access is illegal and punishable by law.
 ## Features
-- IP and shell command are Base64 encoded for stealth and easy customization
+- IP and shell command are Base64 encoded for stealth 
 
 - Function names are reversed to bypass WAF and security filters
 
