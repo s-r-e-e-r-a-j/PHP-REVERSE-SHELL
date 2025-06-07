@@ -34,7 +34,7 @@ echo "your_ip_or_hostname" | base64
 ```bash
 echo "192.168.1.5" | base64
 ```
-**Copy the output and replace the $ip_b64 value in the PHP script.**
+Copy the output and replace the $ip_b64 value in the PHP script.
 
 **3. Update the PHP script**  
 Change these lines with your Base64 encoded IP/hostname and port:
