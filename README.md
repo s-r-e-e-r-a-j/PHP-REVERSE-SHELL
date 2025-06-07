@@ -55,9 +55,9 @@ Rename the file to something less suspicious, for example:
 
 - `update.phtml`
 
-  Using the `.phtml` extension helps the file run on some servers that block `.php`.
+Using the `.phtml` extension helps the file run on some servers that block `.php`.
 
- Upload this file to the target website where file uploads are allowed.
+Upload this file to the target website where file uploads are allowed.
 
 **5. Trigger the reverse shell**
 
