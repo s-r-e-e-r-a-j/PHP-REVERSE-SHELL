@@ -32,7 +32,7 @@ if ($pcntl && $posix) {
     umask(0);
 }
 
-// Connection loop
+
 while (true) {
     $sock = @$f1($ip, $port);
     if (!$sock) {
