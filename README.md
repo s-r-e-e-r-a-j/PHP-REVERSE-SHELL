@@ -1,6 +1,6 @@
 ## PHP Reverse Shell (Powerful & Stealthy)
 This is a powerful and stealthy PHP reverse shell designed for ethical hacking and penetration testing.
-It quietly connects back to your machine reliably 
+It establishes a reliable and quiet connection back to your machine.
 
 ## ⚠️ Disclaimer
 This PHP reverse shell is developed strictly for educational and authorized penetration testing purposes only.   
