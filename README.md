@@ -75,7 +75,7 @@ In that case, the reverse shell can't reach your machine directly.
 To fix this, use TCP tunneling tools like Ngrok or Serveo.
 
 #### Ngrok (Recommended)
-Install Ngrok
+Install Ngrok   
 Run this command:
 
 ```bash
