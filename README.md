@@ -19,7 +19,7 @@ Use responsibly and only on systems you own or have explicit permission to test.
 
 - Works on most PHP-enabled servers
 
-- Supports tunneling services like Cloudflared, Ngrok, Serveo, and others
+- Supports tunneling services like  Ngrok, Serveo
 
 - Upload with `.phtml` extension to bypass some filters
 
